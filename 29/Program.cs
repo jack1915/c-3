@@ -24,3 +24,23 @@ void WriteArray(int[] array){
 }
 Array(numbers, -1000, 1000);
 WriteArray(numbers);
+
+
+
+
+// Можно ещё так:
+// var intArray = new int[8];
+// var enteredNumbers = 0;
+// while(enteredNumbers < intArray.Length){
+//     Console.WriteLine("Введите восемь чисел :");
+//     try {
+//         intArray[enteredNumbers++] = Int32.Parse(Console.ReadLine());
+//     }
+//     catch{
+//         Console.WriteLine("Это не число!");
+//     }
+// }
+
+// foreach(var value in  intArray){
+//     Console.Write(value + " ");
+// }
