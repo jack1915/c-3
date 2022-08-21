@@ -6,10 +6,11 @@
 // 1, 2, 5, 7, 19, 6, 1, 33 -> [1, 2, 5, 7, 19, 6, 1, 33]
 
 int[] numbers = new int[8];
+Random rmd = new Random();
 Console.Write( "[");
 void Array(int[] array, int min , int max){
   for (int i = 0; i<array.Length; i++ ){
-    array[i] = new Random().Next(-1000, 1000);
+    array[i] = rmd.Next(-1000, 1000);
   }  
 }
 void WriteArray(int[] array){
